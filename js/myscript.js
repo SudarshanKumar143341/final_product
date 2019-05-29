@@ -121,3 +121,85 @@ function ex6on() {
 function ex6off() {
   document.getElementById("ex6").style.display = "none";
 }
+
+
+/*Java Script by Sudarshan*/
+
+function introduction_on() {
+  document.getElementById("introduction").style.display = "block";
+}
+
+function introduction_off() {
+  document.getElementById("introduction").style.display = "none";
+}
+
+function conclusion_on() {
+  document.getElementById("conclusion").style.display = "block";
+}
+
+function conclusion_off() {
+  document.getElementById("conclusion").style.display = "none";
+}
+
+
+function paragraph_on() {
+  document.getElementById("paragraph").style.display = "block";
+}
+
+function paragraph_off() {
+  document.getElementById("paragraph").style.display = "none";
+}
+
+
+function link_on() {
+  document.getElementById("link").style.display = "block";
+}
+
+function link_off() {
+  document.getElementById("link").style.display = "none";
+}
+
+
+function prepare_on() {
+  document.getElementById("prepare").style.display = "block";
+}
+
+function prepare_off() {
+  document.getElementById("prepare").style.display = "none";
+}
+
+
+function structure_on() {
+  document.getElementById("structure").style.display = "block";
+}
+
+function structure_off() {
+  document.getElementById("structure").style.display = "none";
+}
+
+
+function evidence_on() {
+  document.getElementById("evidence").style.display = "block";
+}
+
+function evidence_off() {
+  document.getElementById("evidence").style.display = "none";
+}
+
+
+function review_on() {
+  document.getElementById("review").style.display = "block";
+}
+
+function review_off() {
+  document.getElementById("review").style.display = "none";
+}
+
+
+function sample_on() {
+  document.getElementById("sample").style.display = "block";
+}
+
+function sample_off() {
+  document.getElementById("sample").style.display = "none";
+}

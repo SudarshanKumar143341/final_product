@@ -1,1 +1,22 @@
 
+*{
+  margin:0px;
+  padding:1px;
+  box-sizing:border-box;
+}
+body{
+  background:white;
+}
+.logo-image{
+  float:left;
+  width: 20%;
+  height: auto;
+
+}
+
+.main img{
+  width:100%;
+  border-radius: 7px;
+  height:300px;
+  display: inline-flex;
+}

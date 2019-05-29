@@ -84,3 +84,72 @@ body{
       height:10%;
       width:10%;
     }
+}
+
+
+
+.Design {
+  display: inline-table;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  min-height: 500px;
+  border-radius: 20px;
+  border-top: 5px solid #211545;;
+  border-bottom: 5px solid #d1d2da;
+  margin:49px;
+
+}
+
+.Design:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Design h3{
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: monospace;
+}
+ .Design img{
+   margin-top: 10px;
+   border-top-left-radius:5px;
+   border-top-right-radius: 5px;
+   height: 200px;
+   margin-bottom: 20px;
+ }
+ .container p{
+     font-size: 18px;
+}
+
+ .container ul li{
+   font-size: 18px;
+   padding-top: 10px;
+   color:brown;
+   margin-left:15px;
+}
+.container ol li{
+  color: brown;
+
+}
+.container ul li a{
+  color:black;
+  font-size: 18px;
+}
+.container ul li a:hover{
+  color:#993232;
+  letter-spacing: 1px;
+
+}
+
+@media screen and (min-width:550px) {
+  .Design, .p {
+    width:25%;
+    height: 40px;
+  }
+
+
+  @media screen and (min-width:1000px) {
+    .container {
+      width:100%
+    }
+    }

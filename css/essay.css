@@ -135,7 +135,6 @@ body{
       padding:5px;
       border:2px solid black;
       margin:5px;
-      background-image: url("drafting essay.jpg");
     }
     .drafting>p{
       text-align: right;
@@ -276,7 +275,9 @@ table>th{
 .slideshow-container {
   max-width: 50%;
   position: relative;
-  margin: auto;
+  margin-top:45px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* The dots/bullets/indicators */

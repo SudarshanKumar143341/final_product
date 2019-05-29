@@ -20,3 +20,86 @@
 	</head>
 
 <body>
+  <!--top naviation-->
+  <div id='cssnav'>
+      <ul>
+        <a href="http://learnline.cdu.edu.au/studyskills/index.html"><img src="../images/logo.jpg" class="logo-image" alt="Charles Darwin University"></a>
+        <li ><a href='#'>CDU Home</a></li>
+        <li><a href='#'>Courses</a></li>
+        <li><a href='#'>Faculties & Schools</a></li>
+        <li><a href='#'>Library</a></li>
+         <!--search-->
+         <input type="text" id="search" name="search"  placeholder="SEARCH HERE" />
+      </ul>
+    </div>
+  <!--title-->
+    <div class="centered"> <strong>Academic Assignment </strong></div>
+<!--hamburger menu-->
+      <div id="sidebar" onclick="toggleSidebar()">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navigation">
+          <ul class="mainmenu">
+            <li><a href="index.html">Academic Assignments</a>
+              <ul class="submenu">
+                <li><a href="index.html">Essays</a></li>
+                <li><a href="index.html">Reports</a></li>
+                <li><a href="index.html">Other Assignment Types</a><li>
+              </ul>
+            </li>
+            <li><a href="#">Critical Thinking</a>
+              <ul class="submenu">
+                <li><a href="#">Critical Thinking at University</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Note Making</a>
+              <ul class="submenu">
+                <li><a href="#">Effective Note Making</a></li>
+                <li><a href="#">Strategies</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Videos & Interactives</a>
+              <ul class="submenu">
+                <li><a href="#">Video Resources</a></li>
+                <li><a href="#">Interactive Resources</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Exams</a></li>
+            <li><a href="#">Academic Writing</a></li>
+            <li><a href="#">Referencing</a></li>
+            <li><a href="#">Exams</a></li>
+            <li><a href="#">Research and Reading</a></li>
+            <li><a href="#">Managing Studies</a></li>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Learnline Login</button>
+            </ul>
+             </nav>
+              <div id="id01" class="modal">
+                <form class="modal-content animate" action="/action_page.php">
+                  <div class="imgcontainer">
+                   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                   <img src="../images/avatar.png" alt="Avatar" class="avatar">
+                  </div>
+
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                   <input type="text" placeholder="Enter Username" name="uname" required>
+                   <label for="psw"><b>Password</b></label>
+                   <input type="password" placeholder="Enter Password" name="psw" required>
+                   <button type="submit">Login</button>
+                   <label>
+                   <input type="checkbox" checked="checked" name="remember"> Remember me
+                   </label>
+                 </div>
+
+                 <div class="container" style="background-color:#f1f1f1">
+                   <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                   <span class="psw">Forgot <a href="#">password?</a></span>
+                 </div>
+               </form>
+             </div>
+        </div>
+
+        

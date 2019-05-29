@@ -52,11 +52,11 @@
         <nav class="navigation">
           <ul class="mainmenu">
 
-            <li><a href="mvp.html">Academic Assignments</a>
+            <li><a href="index.html">Academic Assignments</a>
                <ul class="submenu">
-                 <li><a href="mvp.html">Essays</a></li>
-                 <li><a href="mvp.html">Reports</a></li>
-                 <li><a href="mvp.html">Other Assignment Types</a><li>
+                 <li><a href="index.html">Essays</a></li>
+                 <li><a href="index.html">Reports</a></li>
+                 <li><a href="index.html">Other Assignment Types</a><li>
                 </ul>
               </li>
 
@@ -339,3 +339,21 @@
                       </div>
                     </div>
                   </div>
+
+                  <!--designing a live chat button-->
+                    <button class="open-button" onclick="openForm()" >Technical Assistance</button>
+                    <div class="chat-popup" id="myForm">
+                      <form action="/action_page.php" class="form-container">
+                        <h1>Hello!</h1>
+                        <label for="msg"><b>How may we help you?</b></label>
+                        <textarea placeholder="Type your message. We will connect you to a technical assistance. Thanks." name="msg" required></textarea>
+
+                        <button type="submit" class="btn" >Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">END CHAT</button>
+                      </form>
+                    </div>
+
+
+
+
+                  <script src="../js/myscript.js"></script>

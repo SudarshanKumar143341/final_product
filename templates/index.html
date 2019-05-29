@@ -177,3 +177,17 @@ ABN54 093 513 649
         <a class="btn" href="https://www.youtube.com/channel/UCKCcLzf49llRjQbNq3llFCg"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
+
+
+      <!--designing a live chat button-->
+            <button class="open-button" onclick="openForm()" >Technical Assistance</button>
+            <div class="chat-popup" id="myForm">
+              <form action="/action_page.php" class="form-container">
+                <h1>Hello!</h1>
+                <label for="msg"><b>How may we help you?</b></label>
+                <textarea placeholder="Type your message. We will connect you to a technical assistance. Thanks." name="msg" required></textarea>
+
+                <button type="submit" class="btn" >Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">END CHAT</button>
+              </form>
+            </div>

@@ -93,7 +93,7 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   background-color: white;
-  min-height: 500px;
+  min-height: auto;
   border-radius: 20px;
   border-top: 5px solid #211545;;
   border-bottom: 5px solid #d1d2da;
